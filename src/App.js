@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ComfirmaEmail from "./components/confirmaEmail";
+import CreateAccount from "./components/creactAccount";
+import Login from "./components/login";
+import PasswordReset from "./components/passwordReset";
+import RegistrationComplete from "./components/registrationomplete";
+import Dashboard from "./components/dashboard";
+import MainDashboardHeading from "./components/mainDashboardHeding";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Login /> */}
+      {/* <CreateAccount /> */}
+      {/* <PasswordReset /> */}
+      {/* <ComfirmaEmail /> */}
+      {/* <RegistrationComplete /> */}
+      <Dashboard />
+    </>
   );
 }
 
